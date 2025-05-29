@@ -1,14 +1,186 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="shadcn">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    .
     <title>Document</title>
     <link rel="stylesheet" href="/src/css/output.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Sarina&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
-  <body class="bg-base-100">
-    <p class="text-2xl font-semibold text-accent">Halo Dunia</p>
-    <div class="p-4 text-zinc-200"></div>
-    <div class="btn bg-primary text-white">Halo</div>
+  <body>
+    <div
+      id="introSection"
+      class="overflow-y-hidden px-4 min-h-[100dvh] flex justify-center items-center overflow-x-hidden fixed inset-0 bg-gradient-to-b from-white via-white to-amber-800/10 z-50 transition-transform duration-1000"
+    >
+      <div>
+        <img
+          src="src/assets/Black and Gold Wedding Invitation 1l.png"
+          alt=""
+          class="absolute -left-8 md:-left-4 lg:-left-8 top-0 left-swaying md:w-[440px] lg:w-[680px] 2xl:w-[720px]"
+        />
+        <img
+          src="src/assets/Black and Gold Wedding Invitation 1r.png"
+          alt=""
+          class="absolute -right-8 md:-right-4 lg:-right-8 top-0 right-swaying md:w-[440px] lg:w-[680px] 2xl:w-[720px]"
+        />
+      </div>
+      <div
+        class="w-full max-w-[480px] md:w-[1024px] flex flex-col items-center"
+      >
+        <div class="flex flex-col items-center relative mb-8 w-fit">
+          <img
+            src="src/assets/Black and Gold Wedding Invitation 3.png"
+            alt=""
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-anchor-placement="top-bottom"
+            class="w-[200px] md:w-[280px] lg:w-[240px] 2xl:w-[320px]"
+          />
+          <img
+            src="src/assets/image 7.png"
+            alt=""
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-delay="200"
+            data-aos-anchor-placement="top-bottom"
+            class="absolute left-0 w-[64px] md:w-[80px] lg:w-[90px] top-10"
+          />
+          <img
+            src="src/assets/Black and Gold Wedding Invitation 2 1.png"
+            alt=""
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-delay="200"
+            data-aos-anchor-placement="top-bottom"
+            class="w-[230px] md:w-[280px] lg:w-[360px] 2xl:w-[420px] absolute -bottom-5"
+          />
+        </div>
+        <div class="text-center mb-8 md:mb-12 lg:mb-8 relative z-50">
+          <div class="mb-2 lg:mb-4">
+            <h1
+              class="text-3xl md:text-[40px] lg:text-[44px] font-sarina font-light mb-2"
+              data-aos="zoom-in"
+              data-aos-duration="1800"
+              data-aos-delay="1000"
+            >
+              Andra & Mitha
+            </h1>
+            <p
+              class="font-domine text-sm md:text-lg lg:text-xl"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+              data-aos-delay="1100"
+            >
+              Invite you to celebrate their marriage
+            </p>
+          </div>
+          <div
+            class="grid grid-cols-3 items-center mb-2"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-delay="1200"
+          >
+            <p class="border-r py-3 text-base md:text-xl font-domine">July</p>
+            <p class="py-3 text-base md:text-xl font-domine">
+              SUN <br />
+              23
+            </p>
+            <p class="border-l py-3 text-base md:text-xl font-domine">2024</p>
+          </div>
+          <p
+            class="font-domine text-sm md:text-lg"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-delay="1400"
+          >
+            Jl.Sudirman no.15 denpasar timur
+          </p>
+        </div>
+        <div class="flex justify-center">
+          <button
+            id="btn"
+            class="px-6 py-3 md:py-4 rounded-full bg-yellow-900 text-white font-domine relative z-50"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-delay="1800"
+            data-aos-offset="0"
+          >
+            Open the invitation
+          </button>
+        </div>
+      </div>
+      <div>
+        <!-- Flower -->
+        <div>
+          <img
+            src="src/assets/image 17l.png"
+            alt=""
+            class="absolute bottom-8 left-0 lg:left-16 flowerl w-[120px] md:w-[280px] lg:w-[220px] 2xl:w-[280px]"
+          />
+          <img
+            src="src/assets/image 17r.png"
+            alt=""
+            class="absolute bottom-8 right-0 lg:right-16 flowerr w-[120px] md:w-[280px] lg:w-[220px] 2xl:w-[280px]"
+          />
+        </div>
+
+        <!-- Grass -->
+        <div>
+          <img
+            src="src/assets/Black and Gold Wedding Invitation 4l.png"
+            alt=""
+            class="absolute -bottom-4 lg:-bottom-12 2xl:-bottom-4 -left-12 lg:-left-0 grassl w-[240px] md:w-[400px] lg:w-[420px] 2xl:w-[480px]"
+          />
+          <img
+            src="src/assets/Black and Gold Wedding Invitation 4.png"
+            alt=""
+            class="absolute -bottom-4 lg:-bottom-12 2xl:-bottom-4 -right-12 lg:-right-0 grassr w-[240px] md:w-[400px] lg:w-[420px] 2xl:w-[480px]"
+          />
+        </div>
+
+        <!-- Grass 2 -->
+
+        <div>
+          <img
+            src="src/assets/image 20l.png"
+            alt=""
+            class="absolute -bottom-4 left-16 md:left-28 lg:left-64 grass2l w-[120px] md:w-[220px] lg:w-[240px]"
+          />
+          <img
+            src="src/assets/image 20r.png"
+            alt=""
+            class="absolute -bottom-4 right-16 md:right-28 lg:right-64 grass2r w-[120px] md:w-[220px] lg:w-[240px]"
+          />
+        </div>
+      </div>
+    </div>
+
+    <section>Content</section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+
+      document.getElementById("btn").addEventListener("click", () => {
+        const intro = document.getElementById("introSection");
+        intro.classList.add("-translate-y-full");
+        // opsional: hapus fixed & z-50 setelah transisi jika perlu
+        setTimeout(() => {
+          intro.classList.add("hidden");
+        }, 1000); // setelah 1 detik (durasi animasi)
+      });
+    </script>
   </body>
 </html>

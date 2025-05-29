@@ -1,1 +1,147 @@
 @import "tailwindcss";
+
+@theme {
+  --font-domine: "Domine", serif;
+}
+
+.font-sarina {
+  font-family: "Sarina", cursive;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+body {
+  overflow-x: hidden;
+  background: #f2f2f2;
+}
+
+.left-swaying {
+  animation: lSwaying 8000ms ease-in-out infinite;
+}
+
+@keyframes lSwaying {
+  0% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-8deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+.right-swaying {
+  animation: rSwaying 8000ms ease-in-out infinite;
+}
+
+@keyframes rSwaying {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(8deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
+.flowerl {
+  animation: flowerl 4000ms ease-in-out infinite;
+}
+
+@keyframes flowerl {
+  0% {
+    transform: rotate(12deg);
+  }
+  50% {
+    transform: rotate(-0deg);
+  }
+  100% {
+    transform: rotate(12deg);
+  }
+}
+
+.flowerr {
+  animation: flowerr 4000ms ease-in-out infinite;
+}
+
+@keyframes flowerr {
+  0% {
+    transform: rotate(12deg);
+  }
+  50% {
+    transform: rotate(-0deg);
+  }
+  100% {
+    transform: rotate(12deg);
+  }
+}
+
+.grassl {
+  animation: grassl 5600ms ease-in-out infinite;
+}
+
+@keyframes grassl {
+  0% {
+    transform: rotate(8deg);
+  }
+  50% {
+    transform: rotate(-0deg);
+  }
+  100% {
+    transform: rotate(8deg);
+  }
+}
+
+.grassr {
+  animation: grassr 5600ms ease-in-out infinite;
+}
+
+@keyframes grassr {
+  0% {
+    transform: rotate(8deg);
+  }
+  50% {
+    transform: rotate(-0deg);
+  }
+  100% {
+    transform: rotate(8deg);
+  }
+}
+
+.grass2r {
+  animation: grass2r 4200ms ease-in-out infinite;
+}
+
+@keyframes grass2r {
+  0% {
+    transform: rotate(8deg);
+  }
+  50% {
+    transform: rotate(-0deg);
+  }
+  100% {
+    transform: rotate(8deg);
+  }
+}
+
+.grass2l {
+  animation: grass2l 4200ms ease-in-out infinite;
+}
+
+@keyframes grass2l {
+  0% {
+    transform: rotate(8deg);
+  }
+  50% {
+    transform: rotate(-0deg);
+  }
+  100% {
+    transform: rotate(8deg);
+  }
+}
